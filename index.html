@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Dashboard</title>
+</head>
+<body>
+    <main class="dashboard">
+        <section class="nav-block">
+            <div class="nav-block__close-icon"><img src="./css/images/close.svg" alt=""></div>
+            <div class="logo">
+                <div class="logo__icon"><img src="./css/images/logo.svg" alt="dashboard"></div>
+                <div class="logo__name">Dashboard<span class="logo__version">v.01</span> </div>
+            </div>
+            <ul class="menu">
+                <li class="menu__item">
+                    <div class="menu__item-name">
+                        <div><img src="./css/images/menu-dashboard.svg" alt="Dashboard menu"></div>
+                        <div class="menu__name">Dashboard</div>
+                    </div>
+                </li>
+                <li class="menu__item">
+                    <div class="menu__item-name">
+                        <div><img src="./css/images/menu-product.svg" alt="Product menu"></div>
+                        <div class="menu__name">Product</div>
+                    </div>
+                    <div class="menu__arrow"><img src="./css/images/arrow-menu.svg" alt="arrow"></div>
+                </li>
+                <li class="menu__item menu__active">
+                    <div class="menu__item-name">
+                        <div><img src="./css/images/menu-customers.svg" alt="Customers menu"></div>
+                        <div class="menu__name">Customers</div>
+                    </div>
+                    <div class="menu__arrow"><img src="./css/images/arrow-menu-white.svg" alt="arrow"></div>
+                </li>
+                <li class="menu__item">
+                    <div class="menu__item-name">
+                        <div><img src="./css/images/menu-income.svg" alt="Income menu"></div>
+                        <div class="menu__name">Income</div>
+                    </div>
+                    <div class="menu__arrow"><img src="./css/images/arrow-menu.svg" alt="arrow"></div>
+                </li>
+                <li class="menu__item">
+                    <div class="menu__item-name">
+                        <div><img src="./css/images/menu-promote.svg" alt="Promote menu"></div>
+                        <div class="menu__name">Promote</div>
+                    </div>
+                    <div class="menu__arrow"><img src="./css/images/arrow-menu.svg" alt="arrow"></div>
+                </li>
+                <li class="menu__item">
+                    <div class="menu__item-name">
+                        <div><img src="./css/images/menu-help.svg" alt="Help menu"></div>
+                        <div class="menu__name">Help</div>
+                    </div>
+                    <div class="menu__arrow"><img src="./css/images/arrow-menu.svg" alt="arrow"></div>
+                </li>
+            </ul>
+            <div class="user">
+                <div class="user__ava"><img src="./css/images/user-ava.jpg" alt="avatar"></div>
+                <div class="user__info">
+                    <p class="user__name">Evano</p>
+                    <p class="user__profession">Project Manager</p>
+                </div>
+            </div>
+        </section>
+        <section class="main-block">
+            <div class="main-block__header"><img src="./css/images/mobile-menu-icon.svg" alt=""><h1>Hello Evano 👋🏼,</h1></div>
+            <div class="customers-block">
+                <div class="customers-block__header">
+                    <div class="customers_block__info">
+                        <p>All Customers</p>
+                        <p>Active Members</p>
+                    </div>
+                    <div class="customers-block__search">
+                        <input type="search" placeholder="Search">
+                    </div>
+                </div>
+                <table class="customers-block__table">
+                    <thead>
+                        <tr>
+                            <th>Customer Name</th>
+                            <th>Company</th>
+                            <th>Phone Number</th>
+                            <th>Email</th>
+                            <th>Country</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td data-label="Customer Name">Jane Cooper</td>
+                            <td data-label="Company">Microsoft</td>
+                            <td data-label="Phone Number">(225) 555-0118</td>
+                            <td data-label="Email">jane@microsoft.com</td>
+                            <td data-label="Country">United States</td>
+                            <td data-label="Status"><button class="button-active">Active</button></td>
+                        </tr>
+                        <tr>
+                            <td data-label="Customer Name">Floyd Miles</td>
+                            <td data-label="Company">Yahoo</td>
+                            <td data-label="Phone Number">(205) 555-0100</td>
+                            <td data-label="Email">floyd@yahoo.com</td>
+                            <td data-label="Country">Kiribati</td>
+                            <td data-label="Status"><button class="button-inactive">Inactive</button></td>
+                        </tr>
+                        <tr>
+                            <td data-label="Customer Name">Ronald Richards</td>
+                            <td data-label="Company">Adobe</td>
+                            <td data-label="Phone Number">(302) 555-0107</td>
+                            <td data-label="Email">ronald@adobe.com</td>
+                            <td data-label="Country">Israel</td>
+                            <td data-label="Status"><button class="button-inactive">Inactive</button></td>
+                        </tr>
+                        <tr>
+                            <td data-label="Customer Name">Marvin McKinney</td>
+                            <td data-label="Company">Tesla</td>
+                            <td data-label="Phone Number">(252) 555-0126</td>
+                            <td data-label="Email">marvin@tesla.com</td>
+                            <td data-label="Country">Iran</td>
+                            <td data-label="Status"><button class="button-active">Active</button></td>
+                        </tr>
+                        <tr>
+                            <td data-label="Customer Name">Jerome Bell</td>
+                            <td data-label="Company">Google</td>
+                            <td data-label="Phone Number">(629) 555-0129</td>
+                            <td data-label="Email">jerome@google.com</td>
+                            <td data-label="Country">Réunion</td>
+                            <td data-label="Status"><button class="button-active">Active</button></td>
+                        </tr>
+                        <tr>
+                            <td data-label="Customer Name">Kathryn Murphy</td>
+                            <td data-label="Company">Microsoft</td>
+                            <td data-label="Phone Number">(406) 555-0120</td>
+                            <td data-label="Email">kathryn@microsoft.com</td>
+                            <td data-label="Country">Curaçao</td>
+                            <td data-label="Status"><button class="button-active">Active</button></td>
+                        </tr>
+                        <tr>
+                            <td data-label="Customer Name">Jacob Jones</td>
+                            <td data-label="Company">Yahoo</td>
+                            <td data-label="Phone Number">(208) 555-0112</td>
+                            <td data-label="Email">jacob@yahoo.com</td>
+                            <td data-label="Country">Brazil</td>
+                            <td data-label="Status"><button class="button-active">Active</button></td>
+                        </tr>
+                        <tr>
+                            <td data-label="Customer Name">Kristin Watson</td>
+                            <td data-label="Company">Facebook</td>
+                            <td data-label="Phone Number">(704) 555-0127</td>
+                            <td data-label="Email">kristin@facebook.com</td>
+                            <td data-label="Country">Åland Islands</td>
+                            <td data-label="Status"><button class="button-inactive">Inactive</button></td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div class="customers-block__footer">
+                    <div class="customers-block__data-info">Showing data 1 to 8 of  256K entries</div>
+                    <div class="customers-block__pagination">
+                        <button class="button"><img src="./css/images/button-arrow-left.svg"></button>
+                        <button class="button button-active">1</button>
+                        <button class="button">2</button>
+                        <button class="button">3</button>
+                        <button class="button">4</button>
+                        <button class="button-space">...</button>
+                        <button class="button">40</button>
+                        <button class="button"><img src="./css/images/button-arrow-right.svg"></button>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </main>
+    <script src="./js/main.js"></script>
+    
+</body>
+</html>
